@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : 0,
+    "080559AF0E5B48E607A04BB048E34D512C7EB71F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39F486BC-C710-48E3-AFA0-82436C568667",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : "ios-first-lab-001-prework-ios\/",
+    "080559AF0E5B48E607A04BB048E34D512C7EB71F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "my-first-lab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "my-first-lab.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/learnlearnlearn\/simon-stamp-collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "080559AF0E5B48E607A04BB048E34D512C7EB71F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learnlearnlearn\/ios-first-lab-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2"
+    }
+  ]
+}
