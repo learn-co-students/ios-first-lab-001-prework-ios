@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : 0,
+    "C17CC658D88E1A7A7E4A6150FED423C15EB51D9A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "42785F5A-5BC2-4E65-B25A-9AAF48933D91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : "ios-first-lab-001-prework-ios\/",
+    "C17CC658D88E1A7A7E4A6150FED423C15EB51D9A" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "my-first-lab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "my-first-lab.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:linocchio\/ios-first-lab-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SwiftMission\/iOSGit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C17CC658D88E1A7A7E4A6150FED423C15EB51D9A"
+    }
+  ]
+}
