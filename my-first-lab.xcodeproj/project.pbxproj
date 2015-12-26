@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
+		C1118BEE1C2E382700CD4682 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
@@ -184,7 +185,7 @@
 		D838FFA31AF823DD0003B4E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
 					D838FFAA1AF823DD0003B4E2 = {
@@ -283,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D838FFD51AF825180003B4E2 /* FISAppDelegateSpec.m in Sources */,
+				C1118BEE1C2E382700CD4682 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +331,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -394,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -404,6 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -423,6 +428,7 @@
 				);
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};
@@ -439,6 +445,7 @@
 				);
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};
