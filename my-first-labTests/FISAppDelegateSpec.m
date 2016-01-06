@@ -13,7 +13,7 @@ describe(@"FISAppDelegate", ^{
     it(@"should return YES", ^{
         FISAppDelegate *appDelegate = (FISAppDelegate*)[UIApplication sharedApplication].delegate;
 
-        expect([appDelegate didItWork]).to.equal(@"YES");
+        expect([appDelegate didItWork]).to.equal(nil);
     });
     
 });
