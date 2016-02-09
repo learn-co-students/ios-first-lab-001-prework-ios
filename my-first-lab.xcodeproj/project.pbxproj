@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
+		45CA3B141C6A96A800B7BCDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CA3B131C6A96A800B7BCDA /* AppDelegate.m */; };
+		45CA3B161C6A96A800B7BCDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CA3B151C6A96A800B7BCDA /* main.m */; };
+		45CA3B181C6A96A800B7BCDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CA3B171C6A96A800B7BCDA /* Images.xcassets */; };
+		45CA3B1B1C6A96A800B7BCDA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CA3B191C6A96A800B7BCDA /* MainMenu.xib */; };
+		45CA3B271C6A96A800B7BCDA /* myFirstLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CA3B261C6A96A800B7BCDA /* myFirstLabTests.m */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
@@ -17,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		45CA3B211C6A96A800B7BCDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D838FFA31AF823DD0003B4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CA3B0D1C6A96A800B7BCDA;
+			remoteInfo = myFirstLab;
+		};
 		D838FFC51AF823DE0003B4E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D838FFA31AF823DD0003B4E2 /* Project object */;
@@ -28,6 +40,16 @@
 
 /* Begin PBXFileReference section */
 		2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
+		45CA3B0E1C6A96A800B7BCDA /* myFirstLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFirstLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA3B111C6A96A800B7BCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CA3B121C6A96A800B7BCDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45CA3B131C6A96A800B7BCDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45CA3B151C6A96A800B7BCDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45CA3B171C6A96A800B7BCDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45CA3B1A1C6A96A800B7BCDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		45CA3B201C6A96A800B7BCDA /* myFirstLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA3B251C6A96A800B7BCDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CA3B261C6A96A800B7BCDA /* myFirstLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFirstLabTests.m; sourceTree = "<group>"; };
 		AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-my-first-labTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		45CA3B0B1C6A96A800B7BCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA3B1D1C6A96A800B7BCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D838FFA81AF823DD0003B4E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +107,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		45CA3B0F1C6A96A800B7BCDA /* myFirstLab */ = {
+			isa = PBXGroup;
+			children = (
+				45CA3B121C6A96A800B7BCDA /* AppDelegate.h */,
+				45CA3B131C6A96A800B7BCDA /* AppDelegate.m */,
+				45CA3B171C6A96A800B7BCDA /* Images.xcassets */,
+				45CA3B191C6A96A800B7BCDA /* MainMenu.xib */,
+				45CA3B101C6A96A800B7BCDA /* Supporting Files */,
+			);
+			path = myFirstLab;
+			sourceTree = "<group>";
+		};
+		45CA3B101C6A96A800B7BCDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CA3B111C6A96A800B7BCDA /* Info.plist */,
+				45CA3B151C6A96A800B7BCDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45CA3B231C6A96A800B7BCDA /* myFirstLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				45CA3B261C6A96A800B7BCDA /* myFirstLabTests.m */,
+				45CA3B241C6A96A800B7BCDA /* Supporting Files */,
+			);
+			path = myFirstLabTests;
+			sourceTree = "<group>";
+		};
+		45CA3B241C6A96A800B7BCDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CA3B251C6A96A800B7BCDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8A20454FBC9A5770C75B26F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +158,8 @@
 			children = (
 				D838FFAD1AF823DD0003B4E2 /* my-first-lab */,
 				D838FFC71AF823DE0003B4E2 /* my-first-labTests */,
+				45CA3B0F1C6A96A800B7BCDA /* myFirstLab */,
+				45CA3B231C6A96A800B7BCDA /* myFirstLabTests */,
 				D838FFAC1AF823DD0003B4E2 /* Products */,
 				3459BCDDFE1BEA72E3D23246 /* Pods */,
 				8A20454FBC9A5770C75B26F2 /* Frameworks */,
@@ -95,6 +171,8 @@
 			children = (
 				D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */,
 				D838FFC41AF823DE0003B4E2 /* my-first-labTests.xctest */,
+				45CA3B0E1C6A96A800B7BCDA /* myFirstLab.app */,
+				45CA3B201C6A96A800B7BCDA /* myFirstLabTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +219,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		45CA3B0D1C6A96A800B7BCDA /* myFirstLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA3B2C1C6A96A800B7BCDA /* Build configuration list for PBXNativeTarget "myFirstLab" */;
+			buildPhases = (
+				45CA3B0A1C6A96A800B7BCDA /* Sources */,
+				45CA3B0B1C6A96A800B7BCDA /* Frameworks */,
+				45CA3B0C1C6A96A800B7BCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFirstLab;
+			productName = myFirstLab;
+			productReference = 45CA3B0E1C6A96A800B7BCDA /* myFirstLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45CA3B1F1C6A96A800B7BCDA /* myFirstLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA3B2D1C6A96A800B7BCDA /* Build configuration list for PBXNativeTarget "myFirstLabTests" */;
+			buildPhases = (
+				45CA3B1C1C6A96A800B7BCDA /* Sources */,
+				45CA3B1D1C6A96A800B7BCDA /* Frameworks */,
+				45CA3B1E1C6A96A800B7BCDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CA3B221C6A96A800B7BCDA /* PBXTargetDependency */,
+			);
+			name = myFirstLabTests;
+			productName = myFirstLabTests;
+			productReference = 45CA3B201C6A96A800B7BCDA /* myFirstLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D838FFAA1AF823DD0003B4E2 /* my-first-lab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D838FFCE1AF823DE0003B4E2 /* Build configuration list for PBXNativeTarget "my-first-lab" */;
@@ -187,6 +300,13 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
+					45CA3B0D1C6A96A800B7BCDA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					45CA3B1F1C6A96A800B7BCDA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 45CA3B0D1C6A96A800B7BCDA;
+					};
 					D838FFAA1AF823DD0003B4E2 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -211,11 +331,29 @@
 			targets = (
 				D838FFAA1AF823DD0003B4E2 /* my-first-lab */,
 				D838FFC31AF823DE0003B4E2 /* my-first-labTests */,
+				45CA3B0D1C6A96A800B7BCDA /* myFirstLab */,
+				45CA3B1F1C6A96A800B7BCDA /* myFirstLabTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		45CA3B0C1C6A96A800B7BCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA3B181C6A96A800B7BCDA /* Images.xcassets in Resources */,
+				45CA3B1B1C6A96A800B7BCDA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA3B1E1C6A96A800B7BCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D838FFA91AF823DD0003B4E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +407,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45CA3B0A1C6A96A800B7BCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA3B161C6A96A800B7BCDA /* main.m in Sources */,
+				45CA3B141C6A96A800B7BCDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA3B1C1C6A96A800B7BCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA3B271C6A96A800B7BCDA /* myFirstLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D838FFA71AF823DD0003B4E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +444,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		45CA3B221C6A96A800B7BCDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CA3B0D1C6A96A800B7BCDA /* myFirstLab */;
+			targetProxy = 45CA3B211C6A96A800B7BCDA /* PBXContainerItemProxy */;
+		};
 		D838FFC61AF823DE0003B4E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D838FFAA1AF823DD0003B4E2 /* my-first-lab */;
@@ -297,6 +457,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		45CA3B191C6A96A800B7BCDA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CA3B1A1C6A96A800B7BCDA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		D838FFBD1AF823DD0003B4E2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,6 +476,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		45CA3B281C6A96A800B7BCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myFirstLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45CA3B291C6A96A800B7BCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = myFirstLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45CA3B2A1C6A96A800B7BCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myFirstLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstLab.app/Contents/MacOS/myFirstLab";
+			};
+			name = Debug;
+		};
+		45CA3B2B1C6A96A800B7BCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myFirstLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstLab.app/Contents/MacOS/myFirstLab";
+			};
+			name = Release;
+		};
 		D838FFCC1AF823DE0003B4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -381,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -447,6 +687,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45CA3B2C1C6A96A800B7BCDA /* Build configuration list for PBXNativeTarget "myFirstLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA3B281C6A96A800B7BCDA /* Debug */,
+				45CA3B291C6A96A800B7BCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45CA3B2D1C6A96A800B7BCDA /* Build configuration list for PBXNativeTarget "myFirstLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA3B2A1C6A96A800B7BCDA /* Debug */,
+				45CA3B2B1C6A96A800B7BCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D838FFA61AF823DD0003B4E2 /* Build configuration list for PBXProject "my-first-lab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
