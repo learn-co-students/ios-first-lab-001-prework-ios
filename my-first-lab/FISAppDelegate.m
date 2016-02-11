@@ -1,4 +1,4 @@
-//  FISAppDelegate.m
+// FISAppDelegate.m
 
 #import "FISAppDelegate.h"
 
@@ -11,8 +11,8 @@
 // /////////////////////////////////////////////////////
 - (NSString *)didItWork
 {
-    return nil;
-//    return @"YES";
+//    return nil;
+  return @"YES";
 }
 
 @end
