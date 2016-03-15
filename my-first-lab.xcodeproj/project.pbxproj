@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
+		9A29BB681C988D280099B6A4 /* first file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29BB671C988D280099B6A4 /* first file.swift */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A29BB661C988D280099B6A4 /* my-first-lab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "my-first-lab-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A29BB671C988D280099B6A4 /* first file.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "first file.swift"; sourceTree = "<group>"; };
 		AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-my-first-labTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,11 +85,13 @@
 		D838FFA21AF823DD0003B4E2 = {
 			isa = PBXGroup;
 			children = (
+				9A29BB671C988D280099B6A4 /* first file.swift */,
 				D838FFAD1AF823DD0003B4E2 /* my-first-lab */,
 				D838FFC71AF823DE0003B4E2 /* my-first-labTests */,
 				D838FFAC1AF823DD0003B4E2 /* Products */,
 				3459BCDDFE1BEA72E3D23246 /* Pods */,
 				8A20454FBC9A5770C75B26F2 /* Frameworks */,
+				9A29BB661C988D280099B6A4 /* my-first-lab-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +189,7 @@
 		D838FFA31AF823DD0003B4E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
@@ -275,6 +281,7 @@
 			files = (
 				D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */,
 				D838FFB11AF823DD0003B4E2 /* main.m in Sources */,
+				9A29BB681C988D280099B6A4 /* first file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,9 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "my-first-lab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -402,9 +412,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "my-first-lab-Bridging-Header.h";
 			};
 			name = Release;
 		};
