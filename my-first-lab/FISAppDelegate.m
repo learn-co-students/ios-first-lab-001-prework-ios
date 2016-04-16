@@ -12,6 +12,7 @@
 - (NSString *)didItWork
 {
         //return nil;
+    NSLog(@"Hello world");
   return @"YES";
 }
 
