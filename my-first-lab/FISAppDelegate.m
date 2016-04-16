@@ -11,8 +11,9 @@
 // /////////////////////////////////////////////////////
 - (NSString *)didItWork
 {
-    return nil;
-//    return @"YES";
+        //return nil;
+    NSLog(@"Hello world");
+  return @"YES";
 }
 
 @end
