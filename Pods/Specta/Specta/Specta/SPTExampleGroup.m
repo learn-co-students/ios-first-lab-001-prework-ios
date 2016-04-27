@@ -3,7 +3,6 @@
 #import "SPTCompiledExample.h"
 #import "SPTSpec.h"
 #import "SpectaUtility.h"
-#import "XCTest+Private.h"
 #import "SPTGlobalBeforeAfterEach.h"
 #import <libkern/OSAtomic.h>
 #import <objc/runtime.h>
