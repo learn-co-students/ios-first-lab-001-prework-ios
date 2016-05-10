@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
 		D838FFBF1AF823DD0003B4E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBD1AF823DD0003B4E2 /* LaunchScreen.xib */; };
-		D838FFD51AF825180003B4E2 /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFD41AF825180003B4E2 /* FISAppDelegateSpec.m */; };
 		D838FFD71AF825FC0003B4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D838FFD61AF825FC0003B4E2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D838FFC51AF823DE0003B4E2 /* PBXContainerItemProxy */ = {
+		D44897B41CE2877500ABAB8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D838FFA31AF823DD0003B4E2 /* Project object */;
 			proxyType = 1;
@@ -27,9 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-my-first-labTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AE946BB5CDADAC711419A58 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D44897B01CE286F600ABAB8B /* Pods-my-first-labTests-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "Pods-my-first-labTests-frameworks.sh"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests-frameworks.sh"; sourceTree = "<group>"; };
+		D4EE130A1CE272ED0091C34C /* my-first-labTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "my-first-labTests copy-Info.plist"; path = "/Users/yanelxavier/Development/ios-first-lab-001-prework-ios/my-first-labTests copy-Info.plist"; sourceTree = "<absolute>"; };
 		D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838FFAF1AF823DD0003B4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D838FFB01AF823DD0003B4E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,10 +35,11 @@
 		D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		D838FFBB1AF823DD0003B4E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D838FFBE1AF823DD0003B4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D838FFC41AF823DE0003B4E2 /* my-first-labTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-first-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D838FFC41AF823DE0003B4E2 /* my-first-labTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; path = "my-first-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838FFC91AF823DE0003B4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D838FFD41AF825180003B4E2 /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 		D838FFD61AF825FC0003B4E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E1AC42AC544ACF4E4561A18B /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,28 +54,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3459BCDDFE1BEA72E3D23246 /* Pods */ = {
+		2A2CAFBE5A3421CCACD2684C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */,
-				2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8A20454FBC9A5770C75B26F2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */,
+				D44897B01CE286F600ABAB8B /* Pods-my-first-labTests-frameworks.sh */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0B8B437A7C3F2F12EBD3471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE946BB5CDADAC711419A58 /* Pods-my-first-labTests.debug.xcconfig */,
+				E1AC42AC544ACF4E4561A18B /* Pods-my-first-labTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D838FFA21AF823DD0003B4E2 = {
@@ -85,8 +83,9 @@
 				D838FFAD1AF823DD0003B4E2 /* my-first-lab */,
 				D838FFC71AF823DE0003B4E2 /* my-first-labTests */,
 				D838FFAC1AF823DD0003B4E2 /* Products */,
-				3459BCDDFE1BEA72E3D23246 /* Pods */,
-				8A20454FBC9A5770C75B26F2 /* Frameworks */,
+				D0B8B437A7C3F2F12EBD3471 /* Pods */,
+				2A2CAFBE5A3421CCACD2684C /* Frameworks */,
+				D4EE130A1CE272ED0091C34C /* my-first-labTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,16 +161,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D838FFD11AF823DE0003B4E2 /* Build configuration list for PBXNativeTarget "my-first-labTests" */;
 			buildPhases = (
-				649C3454062F54C24390AD08 /* Check Pods Manifest.lock */,
+				435F24134610EB2FA3676BC5 /* 📦 Check Pods Manifest.lock */,
 				D838FFC01AF823DE0003B4E2 /* Sources */,
 				D838FFC11AF823DE0003B4E2 /* Frameworks */,
 				D838FFC21AF823DE0003B4E2 /* Resources */,
-				78CB9EA0AA2F55C4F3221C99 /* Copy Pods Resources */,
+				30E17ABD58EBE7ADD27FD845 /* 📦 Embed Pods Frameworks */,
+				F9F7B34AB1425F5F10A25D45 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D838FFC61AF823DE0003B4E2 /* PBXTargetDependency */,
+				D44897B51CE2877500ABAB8B /* PBXTargetDependency */,
 			);
 			name = "my-first-labTests";
 			productName = "my-first-labTests";
@@ -184,7 +184,7 @@
 		D838FFA31AF823DD0003B4E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
 					D838FFAA1AF823DD0003B4E2 = {
@@ -236,14 +236,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		649C3454062F54C24390AD08 /* Check Pods Manifest.lock */ = {
+		30E17ABD58EBE7ADD27FD845 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435F24134610EB2FA3676BC5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,14 +266,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		78CB9EA0AA2F55C4F3221C99 /* Copy Pods Resources */ = {
+		F9F7B34AB1425F5F10A25D45 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,17 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D838FFD51AF825180003B4E2 /* FISAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D838FFC61AF823DE0003B4E2 /* PBXTargetDependency */ = {
+		D44897B51CE2877500ABAB8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D838FFAA1AF823DD0003B4E2 /* my-first-lab */;
-			targetProxy = D838FFC51AF823DE0003B4E2 /* PBXContainerItemProxy */;
+			targetProxy = D44897B41CE2877500ABAB8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,6 +343,8 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -344,7 +360,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -373,6 +390,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -381,8 +400,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -394,6 +415,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -404,25 +427,28 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		D838FFD21AF823DE0003B4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */;
+			baseConfigurationReference = 4AE946BB5CDADAC711419A58 /* Pods-my-first-labTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};
@@ -430,15 +456,16 @@
 		};
 		D838FFD31AF823DE0003B4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */;
+			baseConfigurationReference = E1AC42AC544ACF4E4561A18B /* Pods-my-first-labTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};

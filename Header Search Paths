@@ -1,0 +1,4 @@
+Header Search Paths
+
+$(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/Specta"
+
