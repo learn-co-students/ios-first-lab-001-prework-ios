@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : 0,
+    "79C12C7800DD2FF39672AB4061857076B4146941" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "70420BFA-BEE5-4C65-8D3E-9C01F2AECB62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "316588715E9A18E8DCA15CAFA5DFE27478201EB2" : "ios-first-lab-001-prework-ios\/",
+    "79C12C7800DD2FF39672AB4061857076B4146941" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "my-first-lab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "my-first-lab.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joanagj\/ios-first-lab-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "316588715E9A18E8DCA15CAFA5DFE27478201EB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joanagj\/Simons-Stamp-Collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79C12C7800DD2FF39672AB4061857076B4146941"
+    }
+  ]
+}
