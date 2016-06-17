@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
+		716B8B861D145DC800ECD053 /* My new file.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B8B851D145DC800ECD053 /* My new file.m */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
+		716B8B851D145DC800ECD053 /* My new file.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "My new file.m"; sourceTree = "<group>"; };
 		AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-my-first-labTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				D838FFD61AF825FC0003B4E2 /* Main.storyboard */,
 				D838FFBD1AF823DD0003B4E2 /* LaunchScreen.xib */,
 				D838FFAE1AF823DD0003B4E2 /* Supporting Files */,
+				716B8B851D145DC800ECD053 /* My new file.m */,
 			);
 			path = "my-first-lab";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716B8B861D145DC800ECD053 /* My new file.m in Sources */,
 				D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */,
 				D838FFB11AF823DD0003B4E2 /* main.m in Sources */,
 			);
