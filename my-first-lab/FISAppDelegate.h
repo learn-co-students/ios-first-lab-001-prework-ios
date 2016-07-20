@@ -6,7 +6,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 // ///////////////////
-// Go to FISAppDelegate.m
+////Go to; FISAppDelegate.m
 // ////////////////////
 
 - (NSString *) didItWork;
