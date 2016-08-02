@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */; };
 		D838FFB11AF823DD0003B4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB01AF823DD0003B4E2 /* main.m */; };
 		D838FFB41AF823DD0003B4E2 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D838FFB31AF823DD0003B4E2 /* FISAppDelegate.m */; };
 		D838FFBC1AF823DD0003B4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D838FFBB1AF823DD0003B4E2 /* Images.xcassets */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		2F8264CCED8819BA6252DE49 /* Pods-my-first-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-my-first-labTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52DCCE85B6CF1110B655509 /* Pods-my-first-labTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-first-labTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-first-labTests/Pods-my-first-labTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D838FFAB1AF823DD0003B4E2 /* my-first-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-first-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838FFAF1AF823DD0003B4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDB35EFD5F40A043CB167A3 /* libPods-my-first-labTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +71,6 @@
 		8A20454FBC9A5770C75B26F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB3E2D461CBC13E0A94A1B30 /* libPods-my-first-labTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,7 +180,7 @@
 		D838FFA31AF823DD0003B4E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Joe Burgess";
 				TargetAttributes = {
 					D838FFAA1AF823DD0003B4E2 = {
@@ -329,6 +325,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -394,6 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -404,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "my-first-lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -423,6 +422,7 @@
 				);
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};
@@ -439,6 +439,7 @@
 				);
 				INFOPLIST_FILE = "my-first-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-first-lab.app/my-first-lab";
 			};
