@@ -11,8 +11,8 @@
 // /////////////////////////////////////////////////////
 - (NSString *)didItWork
 {
-    return nil;
-//    return @"YES";
+//    return nil;git 
+    return @"YES";
 }
 
 @end
